@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Football Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- =========================
+            SIDEBAR
+    ========================== -->
+
+    <aside class="sidebar">
+
+        <div class="logo-section">
+
+            <img src="assets/logo.png" alt="Logo">
+
+        </div>
+
+        <ul class="menu">
+
+            <li class="active">
+                <a href="dashboard.html">
+                    <i class="fas fa-house"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="team.html">
+                    <i class="fas fa-users"></i>
+                    <span>Team</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="schedule.html">
+                    <i class="fas fa-calendar-days"></i>
+                    <span>Schedule</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="matches.html">
+                    <i class="fas fa-futbol"></i>
+                    <span>Matches</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="statistics.html">
+                    <i class="fas fa-chart-column"></i>
+                    <span>Statistics</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="notifications.html">
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="settings.html">
+                    <i class="fas fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- =========================
+            MAIN CONTENT
+    ========================== -->
+
+    <main class="main-content">
+
+        <!-- Header -->
+
+        <div class="top-header">
+
+            <div>
+
+                <h1>Dashboard</h1>
+
+                <p>Welcome back, Coach!</p>
+
+            </div>
+
+            
+
+        </div>
+
+        <!-- =========================
+              DASHBOARD CARDS
+        ========================== -->
+
+        <div class="cards-container">
+
+            <div class="dashboard-card">
+
+                <h2>18</h2>
+
+                <h3>Total Players</h3>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h2>8</h2>
+
+                <h3>Matches Played</h3>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h2>4</h2>
+
+                <h3>Upcoming</h3>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h2>3</h2>
+
+                <h3>Wins</h3>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <h2>75%</h2>
+
+                <h3>Win Rate</h3>
+
+            </div>
+
+        </div>
+                <!-- =========================
+                BOTTOM SECTION
+        ========================== -->
+
+        <div class="dashboard-bottom">
+
+            <!-- NEXT MATCH -->
+
+            <div class="next-match">
+
+                <div class="card-header">
+
+                    <h2>Next Match</h2>
+
+                    <a href="#">View All</a>
+
+                </div>
+
+                <div class="match-card">
+
+                    <div class="team">
+
+                        <img src="images/team1.png" alt="Lions FC">
+
+                        <h3>Lions FC</h3>
+
+                    </div>
+
+                    <div class="vs-section">
+
+                        <h1>VS</h1>
+
+                        <p>23 July 2026</p>
+
+                        <span>7:00 PM</span>
+
+                    </div>
+
+                    <div class="team">
+
+                        <img src="images/team2.png" alt="Titans FC">
+
+                        <h3>Titans FC</h3>
+
+                    </div>
+
+                </div>
+
+                <div class="venue">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>City Football Stadium</span>
+
+                </div>
+
+            </div>
+
+            <!-- RECENT RESULTS -->
+
+            <div class="recent-results">
+
+                <div class="card-header">
+
+                    <h2>Recent Results</h2>
+
+                    <a href="#">View All</a>
+
+                </div>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Match</th>
+
+                            <th>Score</th>
+
+                            <th>Status</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Lions FC vs Titans FC</td>
+
+                            <td>2 - 1</td>
+
+                            <td>
+
+                                <span class="badge win">
+
+                                    Win
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Lions FC vs Warriors FC</td>
+
+                            <td>1 - 1</td>
+
+                            <td>
+
+                                <span class="badge draw">
+
+                                    Draw
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Lions FC vs Eagles FC</td>
+
+                            <td>0 - 2</td>
+
+                            <td>
+
+                                <span class="badge loss">
+
+                                    Loss
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+                                                
+
+                        
+
+                        
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>
