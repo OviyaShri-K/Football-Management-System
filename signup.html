@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-<title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="login-page">
+<div class="login-container">
 
-    <!-- Left Image -->
+    <!-- Left Side -->
 
-    <div class="login-image">
+    <div class="login-left">
 
-        <img src="assets/football.jpg" alt="Football">
+        <img src="assets/football.jpg" alt="Football Image">
 
     </div>
 
-    <!-- Right Form -->
+    <!-- Right Side -->
 
-    <div class="login-form">
+    <div class="login-right">
 
-        <h1>Welcome Back!</h1>
+        <div class="login-box">
 
-        <p>Login to continue</p>
+            <img src="assets/logo.png" alt="Logo" class="login-logo">
 
-        <form>
+            <h2>Login</h2>
 
-            <label>Email Address</label>
+            <p class="subtitle">
+                Welcome back! Please login to continue.
+            </p>
 
-            <input
-            type="email"
-            placeholder="Enter your email"
-            required>
+            <!-- Login Form -->
 
-            <label>Password</label>
+            <form action="signup.html" method="get">
 
-            <input
-            type="password"
-            placeholder="Enter your password"
-            required>
+                <div class="input-group">
 
-            <div class="forgot">
+                    <label>Email</label>
 
-                <a href="#">Forgot Password?</a>
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required>
 
-            </div>
+                </div>
 
-            <button type="submit">
+                <div class="input-group">
 
-                Login
+                    <label>Password</label>
 
-            </button>
+                    <input
+                        type="password"
+                        placeholder="Enter your password"
+                        required>
 
-        </form>
+                </div>
 
-        <div class="signup">
+                <button type="submit" class="login-btn">
+                    Login
+                </button>
 
-            Don't have an account?
+            </form>
 
-            <a href="signup.html">
+            <p class="signup-text">
 
-                Sign Up here
+                Don't have an account?
 
-            </a>
+                <a href="signup.html">
+                    Sign Up
+                </a>
+
+            </p>
 
         </div>
 
@@ -78,4 +88,5 @@
 </div>
 
 </body>
+
 </html>
