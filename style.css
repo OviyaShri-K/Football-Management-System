@@ -583,6 +583,151 @@ button:hover{
 
 }
 
+/* ==========================
+   SIGNUP PAGE
+========================== */
+
+.signup-container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+}
+
+/* Left Image */
+
+.signup-left{
+    width:50%;
+}
+
+.signup-left img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+}
+
+/* Right */
+
+.signup-right{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f8f8f8;
+}
+
+/* Signup Box */
+
+.signup-box{
+    width:420px;
+    background:#fff;
+    padding:45px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+/* Heading */
+
+.signup-box h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:10px;
+    color:#111;
+}
+
+.subtitle{
+    text-align:center;
+    color:#777;
+    margin-bottom:35px;
+    font-size:18px;
+}
+
+/* Inputs */
+
+.input-group{
+    margin-bottom:22px;
+}
+
+.input-group label{
+    display:block;
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.input-group input{
+    width:100%;
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+    outline:none;
+    box-sizing:border-box;
+}
+
+.input-group input:focus{
+    border-color:#5b5ff0;
+}
+
+/* Button */
+
+.signup-btn{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    background:#5b5ff0;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.signup-btn:hover{
+    background:#4548d8;
+}
+
+/* Login Link */
+
+.login-text{
+    text-align:center;
+    margin-top:25px;
+    font-size:16px;
+}
+
+.login-text a{
+    color:#5b5ff0;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.login-text a:hover{
+    text-decoration:underline;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.signup-container{
+    flex-direction:column;
+}
+
+.signup-left,
+.signup-right{
+    width:100%;
+}
+
+.signup-left img{
+    height:300px;
+}
+
+.signup-box{
+    width:90%;
+    margin:30px auto;
+}
+
+}
 /* ======================================================
                     DASHBOARD
 ====================================================== */
