@@ -1,109 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
 
-    <title>Sign Up</title>
-
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="signup-container">
+<div class="login-page">
 
-    <!-- Left Side -->
+    <!-- Left Image -->
 
-    <div class="signup-left">
+    <div class="login-image">
 
-        <img src="assets/football.jpg" alt="Football Image">
+        <img src="assets/football.jpg" alt="Football">
 
     </div>
 
-    <!-- Right Side -->
+    <!-- Right Form -->
 
-    <div class="signup-right">
+    <div class="login-form">
 
-        <div class="signup-box">
+        <h1>Welcome Back!</h1>
 
-            <img src="assets/logo.png" alt="Logo" class="signup-logo">
+        <p>Login to continue</p>
 
-            <h2>Create Account</h2>
+        <form>
 
-            <p class="subtitle">
-                Register to manage your football team.
-            </p>
+            <label>Email Address</label>
 
-            <form>
+            <input
+            type="email"
+            placeholder="Enter your email"
+            required>
 
-                <div class="input-group">
+            <label>Password</label>
 
-                    <label>Full Name</label>
+            <input
+            type="password"
+            placeholder="Enter your password"
+            required>
 
-                    <input
-                        type="text"
-                        placeholder="Enter your full name"
-                        required>
+            <div class="forgot">
 
-                </div>
+                <a href="#">Forgot Password?</a>
 
-                <div class="input-group">
+            </div>
 
-                    <label>Email</label>
+            <button type="submit">
 
-                    <input
-                        type="email"
-                        placeholder="Enter your email"
-                        required>
+                Login
 
-                </div>
+            </button>
 
-                <div class="input-group">
+        </form>
 
-                    <label>Password</label>
+        <div class="signup">
 
-                    <input
-                        type="password"
-                        placeholder="Enter your password"
-                        required>
+            Don't have an account?
 
-                </div>
+            <a href="signup.html">
 
-                <div class="input-group">
+                Sign Up here
 
-                    <label>Confirm Password</label>
-
-                    <input
-                        type="password"
-                        placeholder="Confirm your password"
-                        required>
-
-                </div>
-
-                <button type="submit">
-
-                    Sign Up
-
-                </button>
-
-            </form>
-
-            <p class="login-text">
-
-                Already have an account?
-
-                <a href="login.html">
-
-                    Login
-
-                </a>
-
-            </p>
+            </a>
 
         </div>
 
@@ -112,5 +78,4 @@
 </div>
 
 </body>
-
 </html>
